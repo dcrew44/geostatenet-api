@@ -1,0 +1,10 @@
+# --- core ---
+fastapi==0.110.*
+uvicorn[standard]==0.29.*
+pillow==10.*          # for PIL
+numpy==1.26.*
+torch==2.2.2 # pick the CPU or CUDA wheel you trained with
+torchvision==0.17.2
+
+# --- optional dev convenience ---
+python-multipart==0.0.9   # FastAPI file uploads
